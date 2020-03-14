@@ -1,0 +1,208 @@
+{
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4490427?s=460&u=6a92767cafa01d4bf05b76a2c7cb30b2d450db19&v=4",
+    "title": "Sipho Hlophe",
+    "twitterUsername": "psyphore",
+    "myNames": "Sipho Hlophe",
+    "introduction":["I am a Full Stack Developer currently providing my skills and services at Better Life Group, in exchange, I'm learning about the home finance industry.", 
+        "Software development is my passion",
+        "I enjoy creating great products with great user experiences and working in a dynamic environment with a focus on good development practices, automation and shipping small, frequent releases.",
+        "Currently excited about the GRAND stack (GraphQL, ReactJS, Apollo, Neo4J Database) and everything GraphQL with Neo4J",
+        "I have been also experimenting with Python3x version of the GRAND stack"],
+    "myAddress": "Midrand, Gauteng, ZA",
+    "primaryLinks":[{
+        "title": "Email",
+        "url":"mailto:psyphore@gmail.com",
+        "icon":"fa fa-envelope fa-fw"
+    },{
+        "title": "LinkedIn",
+        "url":"https://www.linkedin.com/in/sipho-hlophe-8959ab34",
+        "icon":"fab fa-linkedin-in"
+    },{
+        "title": "GitHub",
+        "url":"https://github.com/psyphore",
+        "icon":"fab fa-github"
+    },{
+        "title": "Twitter",
+        "url":"https://twitter.com/psyphore",
+        "icon":"fab fa-twitter"
+    },{
+        "title": "Stack Overflow",
+        "url":"http://stackoverflow.com/users/1598285/psyphore",
+        "icon":"fab fa-stack-overflow"
+    }],
+    "skills": [
+        {"title":"HTML5","icon":"fab fa-html5"},
+        {"title":"CSS3","icon":"fab fa-css3-alt"},
+        {"title":"JavaScript","icon":"fab fa-js-square"},
+        {"title":"Angular","icon":"fab fa-angular"},
+        {"title":"ReactJS","icon":"fab fa-react"},
+        {"title":"NodeJS","icon":"fab fa-node-js"},
+        {"title":"Sass","icon":"fab fa-sass"},
+        {"title":"Gulp","icon":"fab fa-gulp"},
+        {"title":"NPM","icon":"fab fa-npm"},
+        {"title":"Yarn","icon":"fab fa-yarn"},
+        {"title":"C#.Net","icon":"fas fa-hashtag"},
+        {"title":"Python","icon":"fab fa-python"},
+        {"title":"Docker","icon":"fab fa-docker"},
+        {"title":"REST","icon":"fas fa-cloud"},
+        {"title":"GitHub","icon":"fab fa-github-square"},
+        {"title":"Git","icon":"fab fa-git-alt"},
+        {"title":"JIRA","icon":"fab fa-jira"},
+        {"title":"Confluence","icon":"fab fa-confluence"},
+        {"title":"Trello","icon":"fab fa-trello"},
+        {"title":"TypeScript","icon":"fab fa-typescript"},
+        {"title":"Ubuntu","icon":"fab fa-ubuntu"},
+        {"title":"Neo4J","icon":"fas fa-project-diagram"},
+        {"title":"SQL","icon":"fas fa-database"},
+        {"title":"GraphQL","icon":"fab fa-connectdevelop"}
+    ],
+    "workflows": [
+        {"title":"Agile Development &amp; Scrum","icon":"fa-li fa fa-check"},
+        {"title":"Code First API Design &amp; Development","icon":"fa-li fa fa-check"},
+        {"title":"Cross Functional Teams","icon":"fa-li fa fa-check"},
+        {"title":"Documentation & Developer Testing","icon":"fa-li fa fa-check"},
+        {"title":"Good Knowledge of JIRA &amp; Confluence","icon":"fa-li fa fa-check"},
+        {"title":"Load & Performance Testing","icon":"fa-li fa fa-check"},
+        {"title":"Docker Development Environment","icon":"fa-li fa fa-check"}
+    ],
+    "roles": [
+        {
+            "title":"Senior Web Developer",
+            "start": "Feb 2020",
+            "end": "On Going",
+            "company": "BetterLife Group LTD",
+            "description": [
+                "Senior Fullstack developer at the financial sector",
+                "frontend (Angular)",
+                "backend (C#, ASP.Net Core 3, RavenDB 4)",
+                "testing (XUnit)",
+                "data (JSON)",
+                "devOps (Git with GitHub, goCI, OctopusDeploy, nginx)",
+                "docker (RabbitMQ, RavenDB 4)"
+            ]
+        },
+        {
+            "title":"Senior Web Developer",
+            "start": "Jan 2018",
+            "end": "Jan 2020",
+            "company": "iPlatform Global",
+            "description": [
+                "Senior Fullstack developer at the insurance sector",
+                "frontend (KnockoutJS, RAZOR3, JavaScript ES5)",
+                "backend (C#, ASP.Net MVC 4, NHibernate, .Net Core 2, Topshelf Apps)",
+                "testing (XUnit, Moq)",
+                "data (MSSQL, TSQL, XML, JSON)",
+                "devOps (Git with BitBucket, TeamCity, OctopusDeploy, IIS)",
+                "docker (RabbitMQ, MSSQL, PostgreSQL)",
+                "tech lead for 3rd party vendor integrations",
+                "coaching dev team with tools, techniques and processes (mostly through Confluence and workshops)",
+                "release manager, orchestrating Sprint builds from Staging to Production",
+                "side quests (Python, Angular, ReactJS, GraphQL, Apollo, NodeJS, Neo4J [cypher], Google API, pm2, Node_alpine multi-stage docker builds)"
+            ]
+        },
+        {
+            "title":"Web Developer",
+            "start": "Jun 2015",
+            "end": "Dec 2017",
+            "company": "Derivco",
+            "description": [
+                "Fullstack developer at an online entertainment sector",
+                "frontend (AngularJS, Angular 2, NodeJS, TypeScript, JavaScript ES6)",
+                "backend (C#, WebAPI, ASP.Net MVC 3, EF6-CodeFirst)",
+                "testing (NUnit, NSubstitute)",
+                "data (MSSQL, TSQL, JSON, XML)",
+                "devOps (Git with GitLab, TeamCity, OctopusDeploy, IIS)",
+                "coaching dev with tools, techniques and processes (mostly through Confluence)",
+                "side quests (NodeJS, express, Angular 4, TypeScript, pm2, NGINX)"
+            ]
+        },
+        {
+            "title":"Web Developer",
+            "start": "Mar 2013",
+            "end": "Jun 2015",
+            "company": "Hollywoodbets",
+            "description": [
+                "Fullstack developer at a sportbook and betting sector",
+                "frontend (JQuery, KnockoutJS, AngularJS, JavaScript ES5)",
+                "backend (ASP.Net, ASMX, C#, NHibernate)",
+                "data (MSSQL, TSQL)",
+                "devOps (Git with Mercurial, IIS)"
+            ]
+        },
+        {
+            "title":"Support Developer",
+            "start": "Jan 2009",
+            "end": "Feb 2013",
+            "company": "Nedgroup Life",
+            "description": [
+                "Fullstack developer at the insurance sector",
+                "frontend (Teleforms, OnBase)",
+                "backend (C#, VB, Mapper-BIS)",
+                "data (Business Information Server[BIS])",
+                "Perform Disaster Recovery procedures of Nedgroup Life during DR test sessions"
+            ]
+        },
+        {
+            "title":"Desktop Support Engineer",
+            "start": "? 2009",
+            "end": "? 2009",
+            "company": "Nedbank",
+            "description": [
+                "Help end-users in the organization with their computer related issues as soon as possible",
+                "Install new workstations for the end-users in the organization",
+                "Troubleshooting network issues for users"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "level": "Bachelor of Technology in Information Technology",
+            "start": "2015",
+            "end": "on hold...",
+            "majors": ["Information Systems","Development Software"],
+            "institute": "Durban University of Technology"
+        },
+        {
+            "level": "National Certificate",
+            "start": "2008",
+            "end": "2008",
+            "majors": ["Server Administration","Network Administration", "Security", "Desktop Support"],
+            "institute": "Bytes Technology Group"
+        },
+        {
+            "level": "National Diploma in Information Technology",
+            "start": "2005",
+            "end": "2007",
+            "majors": ["Information Systems","Development Software"],
+            "institute": "Durban University of Technology"
+        }
+    ],
+    "futurePlans": [
+        {"title":"M.Tech Degree", "progress":0, "description":"Once I have my B.Tech"},
+        {"title":"B.Tech Degree", "progress":0, "description":"I wish to resume my B.Tech studies and hopefully complete it"},
+        {"title":"GraphQL", "progress":60, "description":"To Master GraphQL implementation in ASP.Net Core, Python, NodeJS"},
+        {"title":"Quality Assurance Management Solution", "progress":0, "description":"Strapi (with GraphQL) and Angular solution to manage the QA Cycle in a dev team or department"},
+        {"title":"React Streaming Solution", "progress":0, "description":"To have re-written my media steaming server and client in Python and React"},
+        {"title":"GraphQL", "progress":0, "description":""},
+        {"title":"GraphQL", "progress":0, "description":""}
+    ],
+    "interests":[
+        {
+            "title": "Software Passion",
+            "description": "I love creating Software Solutions and learning how to better current Solutions with latest tech. I feel GraphQL is the future of APIs and a dream come true for system integrators and UI developers."
+        },
+        {
+            "title": "Motorsport Passion",
+            "description": "Formular 1 (#TeamRedBull #33), Endurance Racing especially 24hr Spa &amp; Le Mans events. "
+        }
+    ],
+    "projects": [
+        {"icon":"fab fa-github-alt", "path": "psyphore/docker-composer"},
+        {"icon":"fab fa-github-alt", "path": "psyphore/angular-qa-manager"},
+        {"icon":"fab fa-github-alt", "path": "psyphore/stapi-backend-qa-content"},
+        {"icon":"fab fa-github-alt", "path": "psyphore/flask-phone-book"},
+        {"icon":"fab fa-github-alt", "path": "psyphore/react-apollo-client"},
+        {"icon":"fab fa-github-alt", "path": "psyphore/graphql-neo4j-api"},
+        {"icon":"fab fa-github-alt", "path": "psyphore/graphql-net_core-neo4j"}
+    ]
+}
