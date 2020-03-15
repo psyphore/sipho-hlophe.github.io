@@ -106,38 +106,51 @@
       $('.my-interests-data').text('');
       $.each(data.interests, function(i, e) {
         var html = $(
-        '<p class="mb-1" title="'+ e.title +'">'+ e.description +'</p>'
+          '<div class="col-md-4">'
+        +'<div class="card m-1" style="width: 18rem;">'
+        +'<img class="card-img-top" src="'+e.url+'" alt="'+e.title.toLowerCase()+'">'
+        +'<div class="card-body">'
+        +'<h5 class="card-title">'+e.title+'</h5>'
+        +'<p class="card-text">'+e.description+'</p>'
+        +'</div>'
+        +'</div>'
+        +'</div>'
         );
 
         $('.my-interests-data').append(html);
       });
+      $('.my-interests-data').addClass('row');
 
       $('.my-project-data').text('');
       $.each(data.projects, function(i, e) {
         var html = $(
           '<div class="row">'
-          +'<div class="col-lg-6 m-1 github-widget" data-repo="'+ e.path +'" title="'+ e.path +'"></div>'
+          +'<div class="col-lg-5 m-1 github-widget" data-repo="'+ e.path +'" title="'+ e.path +'"></div>'
           +'</div>'
         );
         $('.my-project-data').append(html);
       });
+      $('.my-project-data').addClass('row');
+      window.ghw();
 
       $('.my-future-plans-data').text('');
       $.each(data.futurePlans, function(i, e) {
         var html = $(
-        '<div class="card" style="width: 18rem;">'
+          '<div class="col-md-4">'
+        +'<div class="card m-1" style="width: 18rem;">'
         +'<div class="card-body">'
         +'<h5 class="card-title">'+e.title+'</h5>'
-        +'<h6 class="card-subtitle mb-2 text-muted" title="Progress">'+e.progress+'</h6>'
+        +'<h6 class="card-subtitle mb-2 text-muted" title="Progress">'+e.progress+'%</h6>'
         +'<p class="card-text">'+e.description+'</p>'
+        +'</div>'
         +'</div>'
         +'</div>'
         );
 
         $('.my-future-plans-data').append(html);
       });
+      $('.my-future-plans-data').addClass('row');
 
-      window.ghw();
     });
   }); 
 

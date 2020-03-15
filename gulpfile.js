@@ -140,7 +140,7 @@ function config() {
 function watchFiles() {
   gulp.watch("./scss/**/*", css);
   gulp.watch(["./js/**/*", "!./js/**/*.min.js"], js);
-  gulp.watch(["./**/*.html", "./config/**/*.json"], browserSyncReload);
+  gulp.watch(["./**/*.html", "./config/**/*.json"], gulp.series(html, config, browserSyncReload));
 }
 
 // Define complex tasks

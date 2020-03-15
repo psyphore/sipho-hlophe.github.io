@@ -192,12 +192,24 @@
     ],
     "interests":[
         {
+            "url": "...",
             "title": "Software Passion",
-            "description": "I love creating Software Solutions and learning how to better current Solutions with latest tech. I feel GraphQL is the future of APIs and a dream come true for system integrators and UI developers."
+            "description": "I love to tinker latest tech trends and frameworks. I'm very fond of GraphQL as I feel it is the future of APIs."
         },
         {
+            "url": "...",
             "title": "Motorsport Passion",
-            "description": "Formular 1 (#TeamRedBull #33), Endurance Racing especially 24hr Spa &amp; Le Mans events. "
+            "description": "Formular 1 (#TeamRedBull #33 #MV33), Endurance Racing especially 24hr Spa &amp; Le Mans events."
+        },
+        {
+            "url": "...",
+            "title": "Petrol head",
+            "description": "Car mod scene, I want to mod my '08 Subaru Impreza... one day"
+        },
+        {
+            "url": "...",
+            "title": "PCMR",
+            "description": "Custom Built Computer Rigs... #RGB #1440pGaming #RYZEN"
         }
     ],
     "projects": [
