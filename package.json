@@ -1,11 +1,12 @@
 {
     "title": "Resume",
     "name": "startbootstrap-resume",
-    "version": "5.0.8",
+    "version": "1.0.0",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start": "node_modules/.bin/gulp watch",
+        "dist": "node_modules/.bin/gulp prod"
     },
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "description": "My Professional Online Resume",
     "keywords": [
         "css",
         "sass",
@@ -22,11 +23,11 @@
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Sipho Hlophe (https://psyphore.github.io/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+        "url": "https://github.com/psyphore/sipho-hlophe.github.io.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.12.1",

@@ -9,27 +9,33 @@
         "Currently excited about the GRAND stack (GraphQL, ReactJS, Apollo, Neo4J Database) and everything GraphQL with Neo4J",
         "I have been also experimenting with Python3x version of the GRAND stack"],
     "myAddress": "Midrand, Gauteng, ZA",
-    "primaryLinks":[{
-        "title": "Email",
-        "url":"mailto:psyphore@gmail.com",
-        "icon":"fa fa-envelope fa-fw"
-    },{
-        "title": "LinkedIn",
-        "url":"https://www.linkedin.com/in/sipho-hlophe-8959ab34",
-        "icon":"fab fa-linkedin-in"
-    },{
-        "title": "GitHub",
-        "url":"https://github.com/psyphore",
-        "icon":"fab fa-github"
-    },{
-        "title": "Twitter",
-        "url":"https://twitter.com/psyphore",
-        "icon":"fab fa-twitter"
-    },{
-        "title": "Stack Overflow",
-        "url":"http://stackoverflow.com/users/1598285/psyphore",
-        "icon":"fab fa-stack-overflow"
-    }],
+    "primaryLinks":[
+        {
+            "title": "Email",
+            "url":"mailto:psyphore@gmail.com",
+            "icon":"fa fa-envelope fa-fw"
+        },
+        {
+            "title": "LinkedIn",
+            "url":"https://www.linkedin.com/in/sipho-hlophe-8959ab34",
+            "icon":"fab fa-linkedin-in"
+        },
+        {
+            "title": "GitHub",
+            "url":"https://github.com/psyphore",
+            "icon":"fab fa-github"
+        },
+        {
+            "title": "Twitter",
+            "url":"https://twitter.com/psyphore",
+            "icon":"fab fa-twitter"
+        },
+        {
+            "title": "Stack Overflow",
+            "url":"http://stackoverflow.com/users/1598285/psyphore",
+            "icon":"fab fa-stack-overflow"
+        }
+    ],
     "skills": [
         {"title":"HTML5","icon":"fab fa-html5"},
         {"title":"CSS3","icon":"fab fa-css3-alt"},
@@ -182,9 +188,7 @@
         {"title":"B.Tech Degree", "progress":0, "description":"I wish to resume my B.Tech studies and hopefully complete it"},
         {"title":"GraphQL", "progress":60, "description":"To Master GraphQL implementation in ASP.Net Core, Python, NodeJS"},
         {"title":"Quality Assurance Management Solution", "progress":0, "description":"Strapi (with GraphQL) and Angular solution to manage the QA Cycle in a dev team or department"},
-        {"title":"React Streaming Solution", "progress":0, "description":"To have re-written my media steaming server and client in Python and React"},
-        {"title":"GraphQL", "progress":0, "description":""},
-        {"title":"GraphQL", "progress":0, "description":""}
+        {"title":"React Streaming Solution", "progress":0, "description":"To have re-written my media steaming server and client in Python and React"}
     ],
     "interests":[
         {
