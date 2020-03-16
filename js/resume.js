@@ -124,8 +124,8 @@
       $('.my-project-data').text('');
       $.each(data.projects, function(i, e) {
         var html = $(
-          '<div class="row">'
-          +'<div class="col-lg-5 m-1 github-widget" data-repo="'+ e.path +'" title="'+ e.path +'"></div>'
+          '<div class="col-lg-5 m-1">'
+          +'<div class="github-widget" data-repo="'+ e.path +'" title="'+ e.path +'"></div>'
           +'</div>'
         );
         $('.my-project-data').append(html);
