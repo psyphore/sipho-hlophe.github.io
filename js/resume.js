@@ -150,7 +150,6 @@
         $('.my-future-plans-data').append(html);
       });
       $('.my-future-plans-data').addClass('row');
-
     });
   }); 
 
