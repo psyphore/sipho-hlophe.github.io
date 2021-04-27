@@ -1,5 +1,5 @@
 {
-    "title": "Resume",
+    "title": "sipho-hlophe-resume",
     "name": "startbootstrap-resume",
     "version": "1.0.0",
     "scripts": {
@@ -31,7 +31,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.15.3",
-        "bootstrap": "4.6.0",
+        "bootstrap": "~4.6.0",
         "jquery": "3.6.0",
         "jquery.easing": "1.4.1"
     },
