@@ -30,9 +30,9 @@
         "url": "https://github.com/psyphore/sipho-hlophe.github.io.git"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "5.12.1",
-        "bootstrap": "4.4.1",
-        "jquery": "3.5.0",
+        "@fortawesome/fontawesome-free": "5.15.3",
+        "bootstrap": "4.6.0",
+        "jquery": "3.6.0",
         "jquery.easing": "1.4.1"
     },
     "devDependencies": {

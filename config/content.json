@@ -78,13 +78,17 @@
             "end": "On Going",
             "company": "BetterLife Group LTD",
             "description": [
-                "Senior Fullstack developer at the financial sector",
-                "frontend (Angular)",
-                "backend (C#, ASP.Net Core 3, RavenDB 4)",
-                "testing (XUnit)",
-                "data (JSON)",
-                "devOps (Git with GitHub, goCI, OctopusDeploy, nginx)",
-                "docker (RabbitMQ, RavenDB 4)"
+                "Financial sector fullstack developer",
+                "frontend (Angular, Xamarin)",
+                "backend (C#, .Net Core)",
+                "testing (XUnit, Moq, SpecFlow)",
+                "IoC (ms.ext.di)",
+                "data (RavenDB, MSSQL)",
+                "devOps (Git with GitHub, goCI, OctopusDeploy)",
+                "docker (RabbitMQ, RavenDB, MSSQL)",
+                "coaching dev teams on tools, techniques and processes",
+                "side quests: Lead Relations (Blazor, .net 5, GraphQL, Neo4J, Docker)",
+                "side quests: Lead Manager Client (Blazor, .net 5)"
             ]
         },
         {
@@ -93,17 +97,19 @@
             "end": "Jan 2020",
             "company": "iPlatform Global",
             "description": [
-                "Senior Fullstack developer at the insurance sector",
+                "Insurance sector fullstack developer",
                 "frontend (KnockoutJS, RAZOR3, JavaScript ES5)",
                 "backend (C#, ASP.Net MVC 4, NHibernate, .Net Core 2, Topshelf Apps)",
                 "testing (XUnit, Moq)",
                 "data (MSSQL, TSQL, XML, JSON)",
-                "devOps (Git with BitBucket, TeamCity, OctopusDeploy, IIS)",
-                "docker (RabbitMQ, MSSQL, PostgreSQL)",
+                "devOps (Git with BitBucket, TeamCity, OctopusDeploy)",
+                "docker (RabbitMQ, MSSQL)",
                 "tech lead for 3rd party vendor integrations",
-                "coaching dev team with tools, techniques and processes (mostly through Confluence and workshops)",
+                "coaching dev team with tools, techniques and processes",
                 "release manager, orchestrating Sprint builds from Staging to Production",
-                "side quests (Python, Angular, ReactJS, GraphQL, Apollo, NodeJS, Neo4J [cypher], Google API, pm2, Node_alpine multi-stage docker builds)"
+                "side quests: Entity Relation Manager (ReactJS, GraphQL, Apollo, NodeJS, Neo4J [cypher], Google API, pm2, Node_alpine multi-stage docker builds)",
+                "side quests: Entity Relation Manager Rev 2 (Python, GraphQL, Neo4J [cypher], Google API)",
+                "side quests: Quality Control Manager (Angular, ngxs, GraphQL, Apollo, Strapi [SQLite])"
             ]
         },
         {
@@ -117,9 +123,9 @@
                 "backend (C#, WebAPI, ASP.Net MVC 3, EF6-CodeFirst)",
                 "testing (NUnit, NSubstitute)",
                 "data (MSSQL, TSQL, JSON, XML)",
-                "devOps (Git with GitLab, TeamCity, OctopusDeploy, IIS)",
+                "devOps (Git with GitLab, TeamCity, OctopusDeploy)",
                 "coaching dev with tools, techniques and processes (mostly through Confluence)",
-                "side quests (NodeJS, express, Angular 4, TypeScript, pm2, NGINX)"
+                "side quests: Content Streaming Client (NodeJS, express, Angular 4, TypeScript, pm2, NGINX)"
             ]
         },
         {
@@ -132,7 +138,7 @@
                 "frontend (JQuery, KnockoutJS, AngularJS, JavaScript ES5)",
                 "backend (ASP.Net, ASMX, C#, NHibernate)",
                 "data (MSSQL, TSQL)",
-                "devOps (Git with Mercurial, IIS)"
+                "devOps (Git with Mercurial)"
             ]
         },
         {
@@ -162,9 +168,9 @@
     ],
     "education": [
         {
-            "level": "Bachelor of Technology in Information Technology",
-            "start": "2015",
-            "end": "on hold...",
+            "level": "National Diploma in Information Technology",
+            "start": "2005",
+            "end": "2007",
             "majors": ["Information Systems","Development Software"],
             "institute": "Durban University of Technology"
         },
@@ -174,21 +180,12 @@
             "end": "2008",
             "majors": ["Server Administration","Network Administration", "Security", "Desktop Support"],
             "institute": "Bytes Technology Group"
-        },
-        {
-            "level": "National Diploma in Information Technology",
-            "start": "2005",
-            "end": "2007",
-            "majors": ["Information Systems","Development Software"],
-            "institute": "Durban University of Technology"
         }
     ],
     "futurePlans": [
-        {"title":"M.Tech Degree", "progress":0, "description":"Once I have my B.Tech"},
         {"title":"B.Tech Degree", "progress":0, "description":"I wish to resume my B.Tech studies and hopefully complete it"},
-        {"title":"GraphQL", "progress":60, "description":"To Master GraphQL implementation in ASP.Net Core, Python, NodeJS"},
-        {"title":"Quality Assurance Management Solution", "progress":0, "description":"Strapi (with GraphQL) and Angular solution to manage the QA Cycle in a dev team or department"},
-        {"title":"React Streaming Solution", "progress":0, "description":"To have re-written my media steaming server and client in Python and React"}
+        {"title":"GraphQL", "progress":90, "description":"To Master GraphQL implementation in ASP.Net Core, Python, NodeJS"},
+        {"title":"Quality Assurance Management Solution", "progress":20, "description":"Strapi (with GraphQL) and Angular solution to manage the QA Cycle in a dev team or department"}
     ],
     "interests":[
         {
@@ -209,16 +206,14 @@
         {
             "url": "https://image.shutterstock.com/image-photo/gaming-pc-rgb-led-lights-600w-1621672105.jpg",
             "title": "PCMR",
-            "description": "Custom Built Computer Rigs... #RGB #1440pGaming #RYZEN"
+            "description": "#1440pGaming #RYZEN Custom Built Computer Rigs... I have an AMD Ryzen 7 3700X, Aorus X570 Pro, XFX Radeon RX 6800 XT Black, G.Skill Trident Z Neo 32 GiB DDR4 @ 3700MHz"
         }
     ],
     "projects": [
         {"icon":"fab fa-github-alt", "path": "psyphore/docker-composer"},
         {"icon":"fab fa-github-alt", "path": "psyphore/angular-qa-manager"},
         {"icon":"fab fa-github-alt", "path": "psyphore/stapi-backend-qa-content"},
-        {"icon":"fab fa-github-alt", "path": "psyphore/flask-phone-book"},
         {"icon":"fab fa-github-alt", "path": "psyphore/react-apollo-client"},
-        {"icon":"fab fa-github-alt", "path": "psyphore/graphql-neo4j-api"},
         {"icon":"fab fa-github-alt", "path": "psyphore/graphql-net_core-neo4j"}
     ]
 }
