@@ -18,13 +18,7 @@ const pkg = require('./package.json');
 const dir = './dist/'
 
 // Set the banner content
-const banner = ['/*!\n',
-  ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
-  ' * Copyright 2013-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
-  ' * Licensed under <%= pkg.license %> (https://github.com/BlackrockDigital/<%= pkg.name %>/blob/master/LICENSE)\n',
-  ' */\n',
-  '\n'
-].join('');
+const banner = [''].join('');
 
 // BrowserSync
 function browserSync(done) {
@@ -46,30 +40,6 @@ function browserSyncReload(done) {
 // Clean vendor
 function clean() {
   return del(["./vendor/", dir]);
-}
-
-// Bring third party dependencies from node_modules into vendor directory
-function modules() {
-  const distPath = dir + 'vendor/';
-  // Bootstrap
-  var bootstrap = gulp.src('./node_modules/bootstrap/dist/**/*')
-    .pipe(gulp.dest(distPath + 'bootstrap'));
-  // Font Awesome CSS
-  var fontAwesomeCSS = gulp.src('./node_modules/@fortawesome/fontawesome-free/css/**/*')
-    .pipe(gulp.dest(distPath + 'fontawesome-free/css'));
-  // Font Awesome Webfonts
-  var fontAwesomeWebfonts = gulp.src('./node_modules/@fortawesome/fontawesome-free/webfonts/**/*')
-    .pipe(gulp.dest(distPath + 'fontawesome-free/webfonts'));
-  // jQuery Easing
-  var jqueryEasing = gulp.src('./node_modules/jquery.easing/*.js')
-    .pipe(gulp.dest(distPath + 'jquery-easing'));
-  // jQuery
-  var jquery = gulp.src([
-      './node_modules/jquery/dist/*',
-      '!./node_modules/jquery/dist/core.js'
-    ])
-    .pipe(gulp.dest(distPath + 'jquery'));
-  return merge(bootstrap, fontAwesomeCSS, fontAwesomeWebfonts, jquery, jqueryEasing);
 }
 
 // CSS task
@@ -139,8 +109,8 @@ function config() {
 // Watch files
 function watchFiles() {
   gulp.watch("./scss/**/*", css);
-  gulp.watch(["./js/**/*", "!./js/**/*.min.js"], js);
-  gulp.watch(["./**/*.html", "./config/**/*.json"], gulp.series(html, config))
+  gulp.watch(["./js/**/*.js", "!./js/**/*.min.js"], js);
+  gulp.watch(["./**/*.html", "./config/**/*.json"], gulp.parallel(html, config))
   gulp.watch(["./dist/**/*"], browserSyncReload);
 }
 

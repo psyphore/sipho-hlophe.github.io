@@ -1,13 +1,17 @@
-/*!
- * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
- */
+:root {
+  --primary-accent: #BD5D38;
+  --secondary-accent: #d48a6e;
+  --tertiary-accent: #824027;
+  --text-accent: #868e96;
+  --title-accent: #343a40;
+  --social-bg: #495057;
+  --social-fore: #fff;
+}
 
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #868e96;
+  color: var(--text-accent);
 }
 
 @media (min-width: 992px) {
@@ -26,7 +30,7 @@ h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: var(--title-accent);
 }
 
 h1 {
@@ -58,8 +62,8 @@ p.lead {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
-  color: #fff !important;
+  background-color: var(--social-bg);
+  color: var(--social-fore) !important;
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
@@ -72,7 +76,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: var(--primary-accent);
 }
 
 .dev-icons {
@@ -80,7 +84,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: var(--primary-accent);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -90,7 +94,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  outline-color: var(--secondary-accent);
 }
 
 @media (min-width: 992px) {
@@ -160,17 +164,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: var(--primary-accent) !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: var(--primary-accent) !important;
 }
 
 a {
-  color: #BD5D38;
+  color: var(--primary-accent);
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: var(--tertiary-accent);
 }
