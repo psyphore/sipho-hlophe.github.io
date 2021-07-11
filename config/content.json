@@ -1,19 +1,20 @@
 {
-    "avatarUrl": "https://avatars1.githubusercontent.com/u/4490427?s=460&u=6a92767cafa01d4bf05b76a2c7cb30b2d450db19&v=4",
+    "avatarGitHub": "https://avatars1.githubusercontent.com/u/4490427?s=460&u=6a92767cafa01d4bf05b76a2c7cb30b2d450db19&v=4",
+    "avatarLinkedIn": "https://media-exp1.licdn.com/dms/image/C4D03AQELZegzlZ8M3Q/profile-displayphoto-shrink_400_400/0/1605289281284?e=1631750400&v=beta&t=E3Z2OgjeD87ech3u6Y7q7ZilL-eKRptJIdX-fQT918I",
     "title": "Sipho Hlophe | Full Stack Web Developer",
     "twitterUsername": "psyphore",
     "myNames": "Sipho Hlophe",
     "introduction":["I am a Full Stack Developer currently providing my skills and services at Better Life Group, in exchange, I'm learning about the home finance industry.", 
-        "Software development is my passion",
+        "Software development is my passion,",
         "I enjoy creating great products with great user experiences and working in a dynamic environment with a focus on good development practices, automation and shipping small, frequent releases.",
-        "Currently excited about the GRAND stack (GraphQL, ReactJS, Apollo, Neo4J Database) and everything GraphQL with Neo4J",
+        "Currently excited about the GRAND stack (GraphQL, Angular, Apollo, Neo4J Database) and everything GraphQL with Neo4J",
         "I have been also experimenting with Python3x version of the GRAND stack"],
     "myAddress": "Midrand, Gauteng, ZA",
     "primaryLinks":[
         {
             "title": "Email",
             "url":"mailto:psyphore@gmail.com",
-            "icon":"fa fa-envelope fa-fw"
+            "icon":"fas fa-at"
         },
         {
             "title": "LinkedIn",
@@ -23,53 +24,47 @@
         {
             "title": "GitHub",
             "url":"https://github.com/psyphore",
-            "icon":"fab fa-github"
+            "icon":"fab fa-github-alt"
         },
         {
             "title": "Twitter",
             "url":"https://twitter.com/psyphore",
             "icon":"fab fa-twitter"
-        },
-        {
-            "title": "Stack Overflow",
-            "url":"http://stackoverflow.com/users/1598285/psyphore",
-            "icon":"fab fa-stack-overflow"
         }
     ],
     "skills": [
-        {"title":"HTML5","icon":"fab fa-html5"},
-        {"title":"CSS3","icon":"fab fa-css3-alt"},
-        {"title":"JavaScript","icon":"fab fa-js-square"},
-        {"title":"Angular","icon":"fab fa-angular"},
-        {"title":"ReactJS","icon":"fab fa-react"},
-        {"title":"NodeJS","icon":"fab fa-node-js"},
-        {"title":"Sass","icon":"fab fa-sass"},
-        {"title":"Gulp","icon":"fab fa-gulp"},
-        {"title":"NPM","icon":"fab fa-npm"},
-        {"title":"Yarn","icon":"fab fa-yarn"},
-        {"title":"C#.Net","icon":"fas fa-hashtag"},
-        {"title":"Python","icon":"fab fa-python"},
-        {"title":"Docker","icon":"fab fa-docker"},
-        {"title":"REST","icon":"fas fa-cloud"},
-        {"title":"GitHub","icon":"fab fa-github-square"},
-        {"title":"Git","icon":"fab fa-git-alt"},
-        {"title":"JIRA","icon":"fab fa-jira"},
-        {"title":"Confluence","icon":"fab fa-confluence"},
-        {"title":"Trello","icon":"fab fa-trello"},
-        {"title":"TypeScript","icon":"fab fa-typescript"},
-        {"title":"Ubuntu","icon":"fab fa-ubuntu"},
-        {"title":"Neo4J","icon":"fas fa-project-diagram"},
-        {"title":"SQL","icon":"fas fa-database"},
-        {"title":"GraphQL","icon":"fab fa-connectdevelop"}
+        {"title":"HTML5","icon":"fab fa-html5", "path": "https://cdn.svgporn.com/logos/html-5.svg"},
+        {"title":"CSS3","icon":"fab fa-css3-alt", "path": "https://cdn.svgporn.com/logos/css-3.svg"},
+        {"title":"JavaScript","icon":"fab fa-js-square", "path": "https://cdn.svgporn.com/logos/javascript.svg"},
+        {"title":"Angular","icon":"fab fa-angular", "path": "https://cdn.svgporn.com/logos/angular-icon.svg"},
+        {"title":"TypeScript","icon":"fab fa-typescript", "path": "https://cdn.svgporn.com/logos/typescript-icon.svg"},
+        {"title":"Sass","icon":"fab fa-sass", "path": "https://cdn.svgporn.com/logos/sass.svg"},
+        {"title":"NodeJS","icon":"fab fa-node-js", "path": "https://cdn.svgporn.com/logos/nodejs-icon.svg"},
+        {"title":"NPM","icon":"fab fa-npm", "path": "https://cdn.svgporn.com/logos/npm-icon.svg"},
+        {"title":"C#.Net","icon":"fas fa-hashtag", "path": "https://cdn.svgporn.com/logos/c-sharp.svg"},
+        {"title":"Docker","icon":"fab fa-docker", "path": "https://cdn.svgporn.com/logos/docker-icon.svg"},
+        {"title":"Neo4J","icon":"fas fa-project-diagram", "path": "https://cdn.svgporn.com/logos/neo4j.svg"},
+        {"title":"MS SQL Server","icon":"fas fa-project-diagram", "path": "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg"},
+        {"title":"GraphQL","icon":"fab fa-connectdevelop", "path": "https://cdn.svgporn.com/logos/graphql.svg"},
+        {"title":"GitHub","icon":"fab fa-github-square", "path": "https://cdn.svgporn.com/logos/github-icon.svg"},
+        {"title":"Git","icon":"fab fa-git-alt", "path": "https://cdn.svgporn.com/logos/git-icon.svg"},
+        {"title":"JIRA","icon":"fab fa-jira", "path": "https://cdn.svgporn.com/logos/jira.svg"},
+        {"title":"Confluence","icon":"fab fa-confluence", "path": "https://cdn.svgporn.com/logos/confluence.svg"},
+        {"title":"Azure DevOps","icon":"", "path": "https://cdn.svgporn.com/logos/azure-icon.svg"},
+        {"title":"Flutter","icon":"", "path": "https://cdn.svgporn.com/logos/flutter.svg"},
+        {"title":"Blazor","icon":"", "path": "https://cdn.svgporn.com/logos/flutter.svg"},
+        {"title":"Ubuntu","icon":"fab fa-ubuntu", "path": "https://cdn.svgporn.com/logos/ubuntu.svg"},
+        {"title":"Python","icon":"fab fa-python", "path": "https://cdn.svgporn.com/logos/python.svg"}
     ],
     "workflows": [
-        {"title":"Agile Development &amp; Scrum","icon":"fa-li fa fa-check"},
-        {"title":"Code First API Design &amp; Development","icon":"fa-li fa fa-check"},
-        {"title":"Cross Functional Teams","icon":"fa-li fa fa-check"},
-        {"title":"Documentation & Developer Testing","icon":"fa-li fa fa-check"},
-        {"title":"Good Knowledge of JIRA &amp; Confluence","icon":"fa-li fa fa-check"},
-        {"title":"Load & Performance Testing","icon":"fa-li fa fa-check"},
-        {"title":"Docker Development Environment","icon":"fa-li fa fa-check"}
+        {"title":"Agile Development &amp; Scrum","icon":"far fa-check-circle"},
+        {"title":"Code First API Design &amp; Development","icon":"far fa-check-circle"},
+        {"title":"Cross Functional Teams","icon":"far fa-check-circle"},
+        {"title":"Documentation & Developer Testing","icon":"far fa-check-circle"},
+        {"title":"Good Knowledge of JIRA &amp; Confluence","icon":"far fa-check-circle"},
+        {"title":"Good Knowledge of Azure DevOps","icon":"far fa-check-circle"},
+        {"title":"Load & Performance Testing using Artillery.io","icon":"far fa-check-circle"},
+        {"title":"Docker Development Environment","icon":"far fa-check-circle"}
     ],
     "roles": [
         {
@@ -79,7 +74,7 @@
             "company": "BetterLife Group LTD",
             "description": [
                 "Financial sector fullstack developer",
-                "frontend (Angular, Xamarin)",
+                "frontend (Angular, Xamarin, Flutter)",
                 "backend (C#, .Net Core)",
                 "testing (XUnit, Moq, SpecFlow)",
                 "IoC (ms.ext.di)",
@@ -183,9 +178,10 @@
         }
     ],
     "futurePlans": [
-        {"title":"B.Tech Degree", "progress":0, "description":"I wish to resume my B.Tech studies and hopefully complete it"},
-        {"title":"GraphQL", "progress":90, "description":"To Master GraphQL implementation in ASP.Net Core, Python, NodeJS"},
-        {"title":"Quality Assurance Management Solution", "progress":20, "description":"Strapi (with GraphQL) and Angular solution to manage the QA Cycle in a dev team or department"}
+        {"title":".net + C#", "progress":50, "description":"To specialize .net lts and C#.net, by creating more pet projects solving various questions, currently working on a lead solution."},
+        {"title":"Angular", "progress":50, "description":"To specialize in writing clean and performant Angular apps, still a long way to go."},
+        {"title":"GraphQL", "progress":80, "description":"To master GraphQL implementation in .net using HotChocolate packages."},
+        {"title":"Neo4J", "progress":60, "description":"To master this graph-native database system, by using it in my pet projects as I belive all data is connected."}
     ],
     "interests":[
         {

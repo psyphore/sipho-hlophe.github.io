@@ -6,6 +6,7 @@
   --title-accent: #343a40;
   --social-bg: #495057;
   --social-fore: #fff;
+  --skill-link-color: #333;
 }
 
 body {
@@ -177,4 +178,27 @@ a {
 
 a:hover, a:focus, a:active {
   color: var(--tertiary-accent);
+}
+
+.skill-item {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 6rem 3rem 13rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.skill-item a {
+  color: var(--skill-link-color);
+  outline: none;
+  text-decoration: none;
+}
+
+.skill-item a img, 
+.skill-item a svg {
+  width: 256;
+  height: 256;
 }
