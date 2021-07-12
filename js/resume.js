@@ -185,6 +185,7 @@
       const html = document.createElement('a');
       html.setAttribute('target', '_blank');
       html.setAttribute('href', e.url);
+      html.setAttribute('rel', 'noreferrer');
       
       const i = document.createElement('i');
       i.setAttribute('class', e.icon);
@@ -263,7 +264,7 @@
         processSkills(data);
         processWorkflow(data);
         processInterests(data);
-        processPets(data);
+        // processPets(data);
         processFuture(data);
       });
   }
