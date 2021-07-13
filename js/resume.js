@@ -1,6 +1,61 @@
 (function () {
   appender = (element, html) => element.append(html);
 
+  metatagger = (data) => {
+    /**const tags = [
+      { name: 'description', content: description },
+      { name: 'keywords', content: keywords },
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:image', content: image },
+      { name: 'twitter:title', content: title },
+      { name: 'twitter:description', content: description },
+      { name: 'apple-mobile-web-app-capable', content: 'yes' },
+      {
+        name: 'apple-mobile-web-app-statis-bar-style',
+        content: 'black translucent',
+      },
+      { name: 'apple-mobile-web-app-title', content: title },
+      { name: 'apple-touch-startup-image', content: image },
+      { name: 'og:title', content: title },
+      { name: 'og:description', content: description },
+      { name: 'og:image', content: image },
+    ]; */
+    let meta = document.createElement('meta');
+    meta.name = 'twitter:card';
+    meta.content = 'summary';
+    document.head.append(meta);
+
+    meta = document.createElement('meta');
+    meta.name = 'twitter:image';
+    meta.content = data.avatarLinkedIn;
+    document.head.append(meta);
+
+    meta = document.createElement('meta');
+    meta.name = 'twitter:title';
+    meta.content = data.title;
+    document.head.append(meta);
+
+    meta = document.createElement('meta');
+    meta.name = 'twitter:description';
+    meta.content = data.myNames;
+    document.head.append(meta);
+
+    meta = document.createElement('meta');
+    meta.name = 'og:description';
+    meta.content = data.myNames;
+    document.head.append(meta);
+
+    meta = document.createElement('meta');
+    meta.name = 'og:title';
+    meta.content = data.title;
+    document.head.append(meta);
+
+    meta = document.createElement('meta');
+    meta.name = 'og:image';
+    meta.content = data.avatarLinkedIn;
+    document.head.append(meta);
+  };
+
   collection = (element, item, title, subtitle, breakdown, start = 'start', end = 'end') => {
     const education_item = document.createElement('div');
       education_item.setAttribute('class', 'resume-item d-flex flex-column flex-md-row justify-content-between mb-5');
@@ -45,8 +100,8 @@
     card_img.setAttribute('alt', item[title]);
     card_img.setAttribute('title', item[title]);
     card_img.setAttribute('src', item[path]);
-    card_img.setAttribute('width', 256);
     card_img.setAttribute('height', 256);
+    card_img.setAttribute('width', 256);
     
     const card_link = document.createElement('a');
     card_link.setAttribute('data-shortname', item[title]);
@@ -158,14 +213,14 @@
     // avatar.setAttribute('src', data.avatarGitHub);
     avatar.setAttribute('src', data.avatarLinkedIn);
     avatar.setAttribute('alt', data.myNames);
-  }
+  };
 
   const processBasicInfo = (data) => {
     document.querySelector('title').textContent = data.title;
     document.querySelector('.my-firstname-data').textContent = data.myNames.split(' ')[0];
     document.querySelector('.my-lastname-data').textContent = data.myNames.split(' ')[1];
     document.querySelector('.my-address-data').textContent = data.myAddress;
-  }
+  };
 
   const processIntroduction = (data) => {
     const introduction = document.querySelector('.my-introduction-data');
@@ -176,7 +231,7 @@
       html.textContent = e;
       appender(introduction, html);
     });
-  }
+  };
   
   const processSocialMedia = (data) => {
     const social = document.querySelector('.social-icons');
@@ -193,38 +248,37 @@
       
       appender(social, html);
     });
-  }
+  };
 
   const processExperiance = (data) => {
     const experiance = document.querySelector('.my-roles-data');
     experiance.textContent = '';
     data.roles.forEach(e => collection(experiance, e, 'company', 'title', 'description'));
-  }
+  };
 
   const processEducation = (data) => {
     const education = document.querySelector('.my-education-data');
     education.innerHTML = '';
     data.education.forEach(e => collection(education, e, 'institute', 'level', 'majors'));
-  }
+  };
 
   const processSkills = (data) => {
     const skills = document.querySelector('.my-skills-data');
     skills.innerHTML = '';
     data.skills.forEach(e => cards_skill(skills, e, 'title', 'path'));
-  }
+  };
 
   const processWorkflow = (data) => {
     const workflow = document.querySelector('.my-workflow-data');
     workflow.innerHTML = '';
     data.workflows.forEach(e => {
-
       const workflow_item = document.createElement('li');
       workflow_item.innerHTML = e.title;
-
+      
       const workflow_icon = document.createElement('i');
       workflow_icon.setAttribute('class', e.icon);
 
-      // appender(workflow_item, workflow_icon);
+      appender(workflow_item, workflow_icon);
 
       appender(workflow, workflow_item);
     });
@@ -255,6 +309,7 @@
     fetch('../config/content.json')
       .then(response => response.json())
       .then(data => {
+        metatagger(data);
         processAvatar(data);
         processBasicInfo(data);
         processSocialMedia(data);
